@@ -1,0 +1,12 @@
+# Simulator, controllers, trainer
+numpy>=1.24
+scipy>=1.10
+torch>=2.0
+gymnasium>=0.29
+
+# Optional: policy bank download and upload (src/rl/hf_hub.py)
+huggingface_hub>=0.20
+python-dotenv>=1.0
+
+# Optional: figures (src/analysis/plot_*.py)
+matplotlib>=3.7

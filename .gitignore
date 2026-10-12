@@ -1,0 +1,27 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Run artifacts stay local. The trained policy bank is on the Hugging Face Hub
+# (see README); runs/ holds it plus eval JSONs and SLURM logs, archive/ older runs.
+runs/
+archive/
+shared/
+
+# Output file types, wherever they appear
+*.pt
+*.out
+*.err
+*.log
+*.jsonl
+*.json
+*.csv
+*.png
+*.rar
+*.zip
+
+# Secrets (HF_TOKEN)
+.env
